@@ -1,0 +1,171 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins;
+}
+
+main {
+  position: absolute;
+  right: 0;
+  width: 70vw;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  background-color: #BBF9FB;
+}
+
+main header {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 5px;
+  color: #627EA6;
+}
+
+main header:hover {
+  transition: 0.5s;
+  filter: drop-shadow(0 0 6px #F1BA4A);
+}
+
+main header:not(:hover) {
+  transition: 0.25s;
+  filter: none;
+}
+
+main li {
+  margin-left: 20px;
+}
+
+code {
+  font-size: 16px;
+  color: #292C3E;
+  font-weight: 700;
+}
+
+nav {
+  height: 100%;
+  width: 30vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #6CE0FC;
+  overflow-x: hidden;
+}
+
+nav:hover {
+  transition: 0.5s;
+  background-color: #F2ED8A;
+}
+
+nav:not(:hover) {
+  transition: 0.5s;
+  background-color: #6CE0FC;
+}
+
+nav > ul > li {
+  list-style: none;
+}
+
+nav > ul > li > a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #292C3E;
+  display: block;
+  text-align: center;
+}
+
+nav > ul > li > a:hover {
+  transition: 0.25s;
+  color: #6CE0FC;
+  filter: drop-shadow(0 0 2px #292C3E);
+}
+
+nav > ul > li > a:not(:hover) {
+  transition: 0.25s;
+  filter: none;
+}
+
+nav header {
+  text-align: center;
+  margin-top: 10px;
+  color: #627EA6;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav header:hover {
+  transition: 0.5s;
+  color: #6CE0FC;
+  filter: drop-shadow(0 0 4px #627EA6);
+}
+
+nav header:not(:hover) {
+  transition: 0.5s;
+  filter: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5B99C2;
+}
+
+img {
+  margin: 5px 0;
+  min-height: 25px;
+  height: 50px;
+  min-width: 25px;
+  width: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  display: inline-block;
+}
+
+img:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 6px black);
+}
+
+img:not(:hover) {
+  transition: 0.5s;
+  transform: none;
+  filter: none;
+}
+
+main p {
+  margin: 5px 0;
+}
+
+main p, main li {
+  font-size: 18px;
+  color: #292C3E;
+}
+
+main a {
+  color: #E38545;
+}
+
+main a:hover {
+  transition: 0.5s;
+  filter: drop-shadow(0 0 4px #BBC5DF);
+}
+
+main a:not(:hover) {
+  transition: 0.5s;
+  filter: none;
+}
