@@ -89,6 +89,7 @@ header a:active {
 #welcome-section {
   width: 100%;
   height: 100vh;
+  max-height: 200vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
