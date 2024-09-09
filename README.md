@@ -15,3 +15,15 @@ https://jam.dev/utilities
 
 Open Source JavaScript:
 https://driverjs.com/
+
+GSAP for Animated Website:
+https://gsap.com/
+
+How to use AoS for Simple Animated Website:
+https://michalsnik.github.io/aos/
+
+AoS CDN via CSS:
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+AoS CDN via JS:
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
